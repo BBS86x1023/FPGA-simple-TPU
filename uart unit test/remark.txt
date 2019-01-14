@@ -1,0 +1,2 @@
+感謝網友提供 basic uart
+引用網址:http://www.bealto.com/fpga-uart_intro.html

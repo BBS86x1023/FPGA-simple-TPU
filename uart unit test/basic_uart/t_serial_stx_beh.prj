@@ -1,0 +1,2 @@
+vhdl isim_temp "basic_uart.vhd"
+vhdl isim_temp "t_serial.vhd"

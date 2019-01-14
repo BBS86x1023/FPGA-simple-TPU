@@ -1,0 +1,2 @@
+vhdl work "basic_uart.vhd"
+vhdl work "t_serial.vhd"

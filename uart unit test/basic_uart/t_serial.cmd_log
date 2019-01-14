@@ -1,0 +1,71 @@
+xst -intstyle ise -ifn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.xst" -ofn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.syr" 
+xst -intstyle ise -ifn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.xst" -ofn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.syr" 
+xst -intstyle ise -ifn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.xst" -ofn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.syr" 
+xst -intstyle ise -ifn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.xst" -ofn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc7z020-clg484-3 t_serial.ngc t_serial.ngd  
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o t_serial_map.ncd t_serial.ngd t_serial.pcf 
+par -w -intstyle ise -ol high -mt off t_serial_map.ncd t_serial.ncd t_serial.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml t_serial.twx t_serial.ncd -o t_serial.twr t_serial.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f t_serial.ut t_serial.ncd 
+xst -intstyle ise -ifn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.xst" -ofn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc7z020-clg484-3 t_serial.ngc t_serial.ngd  
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o t_serial_map.ncd t_serial.ngd t_serial.pcf 
+par -w -intstyle ise -ol high -mt off t_serial_map.ncd t_serial.ncd t_serial.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml t_serial.twx t_serial.ncd -o t_serial.twr t_serial.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f t_serial.ut t_serial.ncd 
+xst -intstyle ise -ifn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.xst" -ofn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc7z020-clg484-3 t_serial.ngc t_serial.ngd  
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o t_serial_map.ncd t_serial.ngd t_serial.pcf 
+par -w -intstyle ise -ol high -mt off t_serial_map.ncd t_serial.ncd t_serial.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml t_serial.twx t_serial.ncd -o t_serial.twr t_serial.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f t_serial.ut t_serial.ncd 
+xst -intstyle ise -ifn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.xst" -ofn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc7z020-clg484-3 t_serial.ngc t_serial.ngd  
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o t_serial_map.ncd t_serial.ngd t_serial.pcf 
+par -w -intstyle ise -ol high -mt off t_serial_map.ncd t_serial.ncd t_serial.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml t_serial.twx t_serial.ncd -o t_serial.twr t_serial.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f t_serial.ut t_serial.ncd 
+xst -intstyle ise -ifn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.xst" -ofn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.syr" 
+xst -intstyle ise -ifn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.xst" -ofn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc7z020-clg484-3 t_serial.ngc t_serial.ngd  
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o t_serial_map.ncd t_serial.ngd t_serial.pcf 
+par -w -intstyle ise -ol high -mt off t_serial_map.ncd t_serial.ncd t_serial.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml t_serial.twx t_serial.ncd -o t_serial.twr t_serial.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f t_serial.ut t_serial.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc7z020-clg484-3 t_serial.ngc t_serial.ngd  
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o t_serial_map.ncd t_serial.ngd t_serial.pcf 
+par -w -intstyle ise -ol high -mt off t_serial_map.ncd t_serial.ncd t_serial.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml t_serial.twx t_serial.ncd -o t_serial.twr t_serial.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f t_serial.ut t_serial.ncd 
+xst -intstyle ise -ifn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.xst" -ofn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.syr" 
+xst -intstyle ise -ifn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.xst" -ofn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc7z020-clg484-3 t_serial.ngc t_serial.ngd  
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o t_serial_map.ncd t_serial.ngd t_serial.pcf 
+par -w -intstyle ise -ol high -mt off t_serial_map.ncd t_serial.ncd t_serial.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml t_serial.twx t_serial.ncd -o t_serial.twr t_serial.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f t_serial.ut t_serial.ncd 
+xst -intstyle ise -ifn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.xst" -ofn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc7z020-clg484-3 t_serial.ngc t_serial.ngd  
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o t_serial_map.ncd t_serial.ngd t_serial.pcf 
+par -w -intstyle ise -ol high -mt off t_serial_map.ncd t_serial.ncd t_serial.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml t_serial.twx t_serial.ncd -o t_serial.twr t_serial.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f t_serial.ut t_serial.ncd 
+xst -intstyle ise -ifn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.xst" -ofn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc7z020-clg484-3 t_serial.ngc t_serial.ngd  
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o t_serial_map.ncd t_serial.ngd t_serial.pcf 
+par -w -intstyle ise -ol high -mt off t_serial_map.ncd t_serial.ncd t_serial.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml t_serial.twx t_serial.ncd -o t_serial.twr t_serial.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f t_serial.ut t_serial.ncd 
+xst -intstyle ise -ifn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.xst" -ofn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.syr" 
+xst -intstyle ise -ifn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.xst" -ofn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.syr" 
+xst -intstyle ise -ifn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.xst" -ofn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.syr" 
+xst -intstyle ise -ifn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.xst" -ofn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.syr" 
+xst -intstyle ise -ifn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.xst" -ofn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.syr" 
+xst -intstyle ise -ifn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.xst" -ofn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.syr" 
+xst -intstyle ise -ifn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.xst" -ofn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.syr" 
+xst -intstyle ise -ifn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.xst" -ofn "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc7z020-clg484-3 t_serial.ngc t_serial.ngd  
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o t_serial_map.ncd t_serial.ngd t_serial.pcf 
+par -w -intstyle ise -ol high -mt off t_serial_map.ncd t_serial.ncd t_serial.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml t_serial.twx t_serial.ncd -o t_serial.twr t_serial.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f t_serial.ut t_serial.ncd 

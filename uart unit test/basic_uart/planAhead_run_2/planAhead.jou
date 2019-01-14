@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Jan 10 22:01:30 2019
+# Process ID: 9300
+# Log file: C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS15 [get_ports [list button]]
+set_property iostandard LVCMOS33 [get_ports [list button]]
+startgroup
+set_property package_pin T18 [get_ports button]
+endgroup
+startgroup
+set_property package_pin T18 [get_ports button]
+endgroup
+save_constraints

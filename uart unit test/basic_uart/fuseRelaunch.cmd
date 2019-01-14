@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial_isim_beh.exe" -prj "C:/Users/BBS/Desktop/ISE_Programe/FPGA_ZYNQ/basic_uart/t_serial_beh.prj" "work.t_serial" 

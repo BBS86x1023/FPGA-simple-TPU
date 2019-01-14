@@ -1,0 +1,41 @@
+
+
+
+NET "led[7]" IOSTANDARD = LVCMOS33;
+NET "led[6]" IOSTANDARD = LVCMOS33;
+NET "led[5]" IOSTANDARD = LVCMOS33;
+NET "led[4]" IOSTANDARD = LVCMOS33;
+NET "led[3]" IOSTANDARD = LVCMOS33;
+NET "led[2]" IOSTANDARD = LVCMOS33;
+NET "led[1]" IOSTANDARD = LVCMOS33;
+NET "led[0]" IOSTANDARD = LVCMOS33;
+NET "pmod_1" IOSTANDARD = LVCMOS33;
+NET "pmod_2" IOSTANDARD = LVCMOS33;
+NET "reset_btn" IOSTANDARD = LVCMOS33;
+NET "sys_clk" IOSTANDARD = LVCMOS33;
+NET "uart_rx" IOSTANDARD = LVCMOS33;
+NET "uart_tx" IOSTANDARD = LVCMOS33;
+
+
+NET "uart_tx" LOC = AB22;
+NET "uart_rx" LOC = AA22;
+NET "sys_clk" LOC = Y9;
+NET "reset_btn" LOC = P16;
+NET "pmod_1" LOC = U10;
+NET "pmod_2" LOC = U9;
+NET "led[7]" LOC = U14;
+NET "led[6]" LOC = U19;
+NET "led[5]" LOC = W22;
+NET "led[4]" LOC = V22;
+NET "led[3]" LOC = U21;
+NET "led[2]" LOC = U22;
+NET "led[1]" LOC = T21;
+NET "led[0]" LOC = T22;
+
+# PlanAhead Generated IO constraints 
+
+NET "button" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "button" LOC = T18;
